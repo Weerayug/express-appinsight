@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  express:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image: tmspoc.azurecr.io/appinsight/nodejs/express
